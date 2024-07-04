@@ -74,7 +74,8 @@ To change the **page margins**, use `geometry`.
 
 To change the style of the **page numbers**, use `pagestyle`. Valid options are: plain (page numbers only), empty, headings (running headings on each page).   
 
-`classoption` determines whether the **chapters open** only on even pages or on even and odd pages.  
+`classoption` determines whether the **chapters open** only on even pages or on even and odd pages. *Openright* opens them on even pages, *openany* uses both.  
+
 Standard `fontsize` values in LaTeX are 10pt, 11pt, and 12pt.  
 
 Set a **custom heading for the table of contents** with `toc-title`.   
