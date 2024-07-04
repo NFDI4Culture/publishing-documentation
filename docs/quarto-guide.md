@@ -212,7 +212,7 @@ To leave chapter 1 unnumbered in the table of content, add `{.unnumbered}` after
 
 # Other Changes
 
-## in `section.ipynb` 
+## section.ipynb  
 - [github gist](https://gist.github.com/calnfynn/360c5f5bdcff96001336c946f6b13b59)
 - `text = str(r.text) #changed from r.content` to get UTF-8 encoded text -> can handle umlauts and other special characters
 - added `markdownify` to get markdown in `get_text()` instead of html -> makes converting to PDF/LaTeX more reliable
