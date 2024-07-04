@@ -71,11 +71,15 @@ format:
 		urlcolor: cyan  
 ``` 
 To change the **page margins**, use `geometry`.  
+
 To change the style of the **page numbers**, use `pagestyle`. Valid options are: plain (page numbers only), empty, headings (running headings on each page).   
+
 `classoption` determines whether the **chapters open** only on even pages or on even and odd pages.  
 Standard `fontsize` values in LaTeX are 10pt, 11pt, and 12pt.  
+
 Set a **custom heading for the table of contents** with `toc-title`.   
-`urlcolor` changes only the **color of URLs** but not the color of links within the PDF (like in the table of contents). Check [here](https://steeven9.github.io/USI-LaTeX/html/packages_hyperref_babel_xcolor3.html) for available colors.basic 
+
+`urlcolor` changes only the **color of URLs** but not the color of links within the PDF (like in the table of contents). Check [here](https://steeven9.github.io/USI-LaTeX/html/packages_hyperref_babel_xcolor3.html) for available colors.
 
 ### Cover Image
 
